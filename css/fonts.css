@@ -1,0 +1,27 @@
+@font-face {
+  font-family: "SF UI Display";
+  font-weight: 100;
+  src: url("../fonts/SFUIDisplay-Thin.woff2") format("woff2"),
+    url("../fonts/SFUIDisplay-Thin.woff") format("woff");
+}
+
+@font-face {
+  font-family: "SF UI Display";
+  font-weight: 400;
+  src: url("../fonts/SFUIDisplay-Regular.woff2") format("woff2"),
+    url("../fonts/SFUIDisplay-Regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: "SF UI Display";
+  font-weight: 700;
+  src: url("../fonts/SFUIDisplay-Bold.woff2") format("woff2"),
+    url("../fonts/SFUIDisplay-Black.woff") format("woff");
+}
+
+@font-face {
+  font-family: "SF UI Display";
+  font-weight: 900;
+  src: url("../fonts/SFUIDisplay-Black.woff2") format("woff2"),
+    url("../fonts/SFUIDisplay-Black.woff") format("woff");
+}

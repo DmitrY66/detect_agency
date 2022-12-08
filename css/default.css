@@ -1,0 +1,87 @@
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+/* настройка скроллбара */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #959b9c bdc4c7;
+}
+
+*::-webkit-scrollbar {
+  width: 9px;
+}
+
+*::-webkit-scrollbar-track {
+  background-color: #bdc4c7;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #959b9c;
+}
+/* настройка скроллбара */
+
+*,
+*:after,
+*:before {
+  box-sizing: inherit;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+input:-webkit-autofill {
+  box-shadow: 0 0 0 30px var(--dark) inset;
+  -webkit-text-fill-color: var(--light);
+}
+
+button {
+  cursor: pointer;
+  color: inherit;
+  border-color: transparent;
+  background-color: transparent;
+}
+
+body {
+  min-height: 100vh;
+  margin: 0;
+  font-family: "SF UI Display", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: var(--light);
+  background: var(--dark);
+}
+
+.container {
+  max-width: 1000px;
+  padding: 0 16px;
+  margin: 0 auto;
+}
+
+.hidden {
+  position: absolute;
+  top: 0;
+  left: -400%;
+  height: 0;
+  overflow: hidden;
+}
+
+@media (max-width: 900px) {
+  .container {
+    padding: 0 30px;
+  }
+}

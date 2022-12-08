@@ -1,0 +1,37 @@
+.indevelop {
+  padding: 180px 0 80px;
+  /* margin-top: 100px; */
+  background: var(--dark2);
+}
+
+.indevelop__title {
+  font-weight: 400;
+  font-size: 25px;
+  margin: 0 0 40px;
+  color: #f4b664;
+  filter: var(--filter-bag);
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+}
+
+.indevelop__img {
+  width: 300px;
+  margin: 0 auto;
+  filter: var(--filter-bag);
+  z-index: 0;
+}
+
+@media (max-width: 560px) {
+  .indevelop__img {
+    width: 260px;
+  }
+}
+
+@media (max-width: 400px) {
+  .indevelop__img {
+    width: 200px;
+  }
+  .indevelop__title {
+    font-size: 20px;
+  }
+}

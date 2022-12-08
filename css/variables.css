@@ -1,0 +1,31 @@
+[theme="dark"] {
+  --blue-light: #11a8fd;
+  --blue-pale: #6d7d86;
+  --light: #d8dde0;
+  --light2: #c6cacc;
+  --dark: #232429;
+  --dark2: #18191d;
+  --dark3: #121213;
+  --hover: #141414;
+  --hover2: #0a3867;
+  --hover-text: #11a8fd;
+  --gradient: linear-gradient(180deg, #16171b 0%, #152334 50%, #16171b 100%);
+  --filter-arrow: hue-rotate(0deg);
+  --filter-bag: hue-rotate(0deg);
+}
+
+[theme="light"] {
+  --blue-light: #06357b;
+  --blue-pale: #6d7d86;
+  --light: #232429;
+  --light2: #18191d;
+  --dark: #d8dde0;
+  --dark2: #c6cacc;
+  --dark3: #f1f1f2;
+  --hover: #f3f2f4;
+  --hover2: #a2c7ec;
+  --hover-text: #11a8fd;
+  --gradient: linear-gradient(180deg, #c6cacc 0%, #f2f4f5 50%, #c6cacc 100%);
+  --filter-arrow: hue-rotate(26deg);
+  --filter-bag: invert();
+}
